@@ -17,8 +17,8 @@ mkdir -p /opt/myapp
 chown -R vagrant /opt/myapp
 
 echo ">>> Preparing maven..."
-if [ ! -f "/vagrant/apache-maven-3.1.0/bin/mvn" ]; then
-  wget http://apache.vianett.no/maven/maven-3/3.1.0/binaries/apache-maven-3.1.0-bin.tar.gz -O /tmp/maven.tgz
+if [ ! -f "/vagrant/apache-maven-3.1.1/bin/mvn" ]; then
+  wget http://apache.vianett.no/maven/maven-3/3.1.1/binaries/apache-maven-3.1.1-bin.tar.gz -O /tmp/maven.tgz
   tar xzvf /tmp/maven.tgz -C /vagrant
 fi
 

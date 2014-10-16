@@ -8,7 +8,7 @@ BINARY_NAME="stateless-hello-webapp-with-dependencies.war"
 BINARY="/webapp/target/$BINARY_NAME"
 APP_ROOT="/opt/myapp"
 ZONE_FILE="$APP_ROOT/current_zone"
-MVN=/vagrant/apache-maven-3.1.0/bin/mvn
+MVN=/vagrant/apache-maven-3.1.1/bin/mvn
 
 lock="/tmp/deploy.lock"
 # 0. Create/check a lock file
